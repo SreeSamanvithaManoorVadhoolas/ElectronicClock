@@ -1,0 +1,106 @@
+signalclasses:
+    sc_input:
+        datatrigger: 
+    sc_display:
+        datatrigger: 
+    sc_control:
+        datatrigger:
+
+signalpools:
+    sp_common:
+        start: ADR_SP_COMMON_START
+        end: ADR_SP_COMMON_END
+        signals:
+            so_input:
+                    class: sc_input
+                    inDriver: default
+                    outDriver: 0
+                    onDataUpdate: ev_onData
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_control:
+                    class: sc_control
+                    inDriver: 0
+                    outDriver: 0
+                    onDataUpdate: 0
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask: 
+            so_display:
+                    class: sc_display
+                    inDriver: 0
+                    outDriver: default
+                    onDataUpdate: 0
+                    onDataUpdateTask: 
+                    onDataError: 0
+                    onDataErrorTask:
+
+tasks:
+    tsk_input:
+        timertickperiod: 1
+        mode: Cyclic
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: 
+        runnables:
+                CLOCK_input_run:
+                    task: tsk_input
+                    cycletime: 50
+                    events: 
+                    signalIN: 
+                    signalOUT: so_input
+            
+                CLOCK_display_run:
+                    task: tsk_input
+                    cycletime: 250
+                    events: 
+                    signalIN: so_control
+                    signalOUT: so_display
+            
+    tsk_control:
+        timertickperiod: 0
+        mode: Event
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: ev_button|ev_onData
+        runnables:
+                CLOCK_control_run:
+                    task: tsk_control
+                    cycletime: 0
+                    events: ev_onData|ev_button
+                    signalIN: so_input
+                    signalOUT: so_control
+            
+    tsk_system:
+        timertickperiod: 1
+        mode: System
+        signalpoolsRO: sp_common
+        signalpoolsRW: sp_common
+        events: 
+        runnables:
+
+swc:
+    swc_clock:
+        runnables:
+                CLOCK_input_run:
+                    task: tsk_input
+                    cycletime: 50
+                    events: 
+                    signalIN: 
+                    signalOUT: so_input
+            
+                CLOCK_control_run:
+                    task: tsk_control
+                    cycletime: 0
+                    events: ev_onData|ev_button
+                    signalIN: so_input
+                    signalOUT: so_control
+            
+                CLOCK_display_run:
+                    task: tsk_input
+                    cycletime: 250
+                    events: 
+                    signalIN: so_control
+                    signalOUT: so_display
+

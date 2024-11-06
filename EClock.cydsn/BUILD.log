@@ -1,0 +1,108 @@
+--------------- Build Started: 07/10/2024 03:20:24 Project: EClock, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\bsw -I.\source\rte -I.\source\asw -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/clock.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\clock.c -o .\CortexM3\ARM_GCC_541\Debug\clock.o
+In file included from Generated_Source\PSoC5/cyfitter_cfg.h:20:0,
+                 from Generated_Source\PSoC5/project.h:17,
+                 from .\source\rte/sp_common.h:13,
+                 from source\asw\clock.c:14:
+Generated_Source\PSoC5/cytypes.h:1377:0: warning: "LO8" redefined
+ #define LO8(x)                  ((uint8) ((x) & 0xFFu))
+ ^
+In file included from source\asw\clock.h:15:0,
+                 from source\asw\clock.c:13:
+.\source\bsw/global.h:306:0: note: this is the location of the previous definition
+  # define LO8(x)   ((uint8_t) ((x) & 0xFFu))
+ ^
+In file included from Generated_Source\PSoC5/cyfitter_cfg.h:20:0,
+                 from Generated_Source\PSoC5/project.h:17,
+                 from .\source\rte/sp_common.h:13,
+                 from source\asw\clock.c:14:
+Generated_Source\PSoC5/cytypes.h:1378:0: warning: "HI8" redefined
+ #define HI8(x)                  ((uint8) ((uint16)(x) >> 8))
+ ^
+In file included from source\asw\clock.h:15:0,
+                 from source\asw\clock.c:13:
+.\source\bsw/global.h:311:0: note: this is the location of the previous definition
+  # define HI8(x)   ((uint8_t) ((uint16_t)(x) >> 8))
+ ^
+In file included from Generated_Source\PSoC5/cyfitter_cfg.h:20:0,
+                 from Generated_Source\PSoC5/project.h:17,
+                 from .\source\rte/sp_common.h:13,
+                 from source\asw\clock.c:14:
+Generated_Source\PSoC5/cytypes.h:1381:0: warning: "LO16" redefined
+ #define LO16(x)                 ((uint16) ((x) & 0xFFFFu))
+ ^
+In file included from source\asw\clock.h:15:0,
+                 from source\asw\clock.c:13:
+.\source\bsw/global.h:316:0: note: this is the location of the previous definition
+  # define LO16(x)   ((uint16_t) ((x) & 0xFFFFu))
+ ^
+In file included from Generated_Source\PSoC5/cyfitter_cfg.h:20:0,
+                 from Generated_Source\PSoC5/project.h:17,
+                 from .\source\rte/sp_common.h:13,
+                 from source\asw\clock.c:14:
+Generated_Source\PSoC5/cytypes.h:1382:0: warning: "HI16" redefined
+ #define HI16(x)                 ((uint16) ((uint32)(x) >> 16))
+ ^
+In file included from source\asw\clock.h:15:0,
+                 from source\asw\clock.c:13:
+.\source\bsw/global.h:321:0: note: this is the location of the previous definition
+  # define HI16(x)   ((uint16_t) ((uint32_t)(x) >> 16))
+ ^
+In file included from .\source\rte/sp_common.h:15:0,
+                 from source\asw\clock.c:14:
+.\source\rte/rte_types.h:46:0: warning: "GetResource" redefined
+     #define GetResource(A)
+ ^
+In file included from Generated_Source\PSoC5/ErikaOS_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\rte/sp_common.h:13,
+                 from source\asw\clock.c:14:
+Generated_Source\PSoC5/ErikaOS_ee_oo_api.inc:136:0: note: this is the location of the previous definition
+ #define GetResource               EE_oo_GetResource
+ ^
+In file included from .\source\rte/sp_common.h:15:0,
+                 from source\asw\clock.c:14:
+.\source\rte/rte_types.h:47:0: warning: "ReleaseResource" redefined
+     #define ReleaseResource(A)
+ ^
+In file included from Generated_Source\PSoC5/ErikaOS_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:22,
+                 from .\source\rte/sp_common.h:13,
+                 from source\asw\clock.c:14:
+Generated_Source\PSoC5/ErikaOS_ee_oo_api.inc:140:0: note: this is the location of the previous definition
+ #define ReleaseResource           EE_oo_ReleaseResource
+ ^
+In file included from .\source\rte/sc_display.h:27:0,
+                 from .\source\rte/sp_common.h:25,
+                 from source\asw\clock.c:14:
+.\source\rte/sc_display.h: In function 'RTE_SC_DISPLAY_init':
+.\source\rte/sc_display_type.h:42:50: warning: missing braces around initializer [-Wmissing-braces]
+ #define SC_DISPLAY_INIT_DATA ((SC_DISPLAY_data_t){0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0})
+                                                  ^
+.\source\rte/sc_display.h:166:21: note: in expansion of macro 'SC_DISPLAY_INIT_DATA'
+    signal->value  = SC_DISPLAY_INIT_DATA;
+                     ^
+.\source\rte/sc_display_type.h:42:50: note: (near initialization for '(anonymous)')
+ #define SC_DISPLAY_INIT_DATA ((SC_DISPLAY_data_t){0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0})
+                                                  ^
+.\source\rte/sc_display.h:166:21: note: in expansion of macro 'SC_DISPLAY_INIT_DATA'
+    signal->value  = SC_DISPLAY_INIT_DATA;
+                     ^
+source\asw\clock.c: In function 'ProcessEvent':
+source\asw\clock.c:185:21: warning: variable 'input' set but not used [-Wunused-but-set-variable]
+     SC_INPUT_data_t input;
+                     ^
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\EClock.a .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_activate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_alcancel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_alget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_algetbase.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_alsetabs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_alsetrel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_altick.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_chaintas.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_evclear.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_evget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_evset.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_evwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_force_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_getcountervalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_getelapsedvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_gettaskid.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_gettaskstate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_iparam.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_irqendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_lockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_lookup.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_rq_exchg.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_rq_first.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_rq_inser.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_semgetvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_sempost.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_semtrywait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_semwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_shtdown.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_startos.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_terminat.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_thendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_tnterm.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_tstub.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_ulockallres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_ulockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_cortex_mx_ee_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_cortex_mx_ee_system_timer.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_cortex_mx_ee_utils.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_common_ee_hal_structs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_eecfg.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI_PM.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI_INT.o .\CortexM3\ARM_GCC_541\Debug\TFT_SCL.o .\CortexM3\ARM_GCC_541\Debug\TFT_DC.o .\CortexM3\ARM_GCC_541\Debug\TFT_RES.o .\CortexM3\ARM_GCC_541\Debug\TFT_CS.o .\CortexM3\ARM_GCC_541\Debug\TFT_LED.o .\CortexM3\ARM_GCC_541\Debug\TFT_SDA.o .\CortexM3\ARM_GCC_541\Debug\TFT_BackLight.o .\CortexM3\ARM_GCC_541\Debug\TFT_BackLight_PM.o .\CortexM3\ARM_GCC_541\Debug\CLK_LED.o .\CortexM3\ARM_GCC_541\Debug\TFT_SPI_IntClock.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o .\CortexM3\ARM_GCC_541\Debug\isr_button.o .\CortexM3\ARM_GCC_541\Debug\Button_1.o .\CortexM3\ARM_GCC_541\Debug\Button_2.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_gnu_change_context_isr.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_gnu_irq_stack.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_gnu_multi_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_ee_gnu_oo.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\EClock.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o D:\h_da\sem2\eaa\lab2\lab2\my\assignment2\EClock.cydsn\CortexM3\ARM_GCC_541\Debug\EClock.elf .\CortexM3\ARM_GCC_541\Debug\tft.o .\CortexM3\ARM_GCC_541\Debug\logging.o .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\swc_clock.o .\CortexM3\ARM_GCC_541\Debug\tsk_control.o .\CortexM3\ARM_GCC_541\Debug\tsk_input.o .\CortexM3\ARM_GCC_541\Debug\tsk_system.o .\CortexM3\ARM_GCC_541\Debug\clock.o .\CortexM3\ARM_GCC_541\Debug\statemachine.o .\CortexM3\ARM_GCC_541\Debug\rte.o .\CortexM3\ARM_GCC_541\Debug\sc_control.o .\CortexM3\ARM_GCC_541\Debug\sc_display.o .\CortexM3\ARM_GCC_541\Debug\sc_display_type.o .\CortexM3\ARM_GCC_541\Debug\sc_input.o .\CortexM3\ARM_GCC_541\Debug\sc_input_type.o .\CortexM3\ARM_GCC_541\Debug\sp_common.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\EClock.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/EClock.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C D:\h_da\sem2\eaa\lab2\lab2\my\assignment2\EClock.cydsn\CortexM3\ARM_GCC_541\Debug\EClock.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S D:\h_da\sem2\eaa\lab2\lab2\my\assignment2\EClock.cydsn\CortexM3\ARM_GCC_541\Debug\EClock.elf
+Flash used: 19144 of 262144 bytes (7.3%).
+SRAM used: 12137 of 65536 bytes (18.5%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 07/10/2024 03:20:25 ---------------

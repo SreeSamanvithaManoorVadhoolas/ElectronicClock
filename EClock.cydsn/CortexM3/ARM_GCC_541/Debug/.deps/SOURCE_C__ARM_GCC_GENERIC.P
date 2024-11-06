@@ -1,0 +1,174 @@
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/CortexM3/ARM_GCC_541/Debug/clock.o : D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_1.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_1_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_2.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_2_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CLK_LED.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CyDmac.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CyFlash.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CyLib.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CySpc.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ISR_definition.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_compiler_gcc.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_hal_structs.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_irqstub.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_primitives.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_types.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_context.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_cpu.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_irq.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_irq_cng_cont.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_nvic.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_systick.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_api.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_as_kernel.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_as_timing_prot.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_irq.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_api.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_common.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_inline.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_intfunc.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_irq.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_kernel.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_rtdruid_versions.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_tracing.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_eecfg.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_event_definition.inc D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_BackLight.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_CS.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_CS_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_DC.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_DC_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_LED.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_LED_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_RES.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_RES_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SCL.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SCL_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SDA.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SDA_aliases.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SPI.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SPI_IntClock.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SPI_PVT.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/UART_LOG.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/UART_LOG_IntClock.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cmsis_armcc.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cmsis_compiler.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cmsis_gcc.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/core_cm3.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cyPm.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cydevice.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cydevice_trm.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cydisabledsheets.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cyfitter.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cypins.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cytypes.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/isr_button.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/project.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/bsw/derivate.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/bsw/global.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/bsw/tft/tft.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/rte.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/rte_types.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_control.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_control_type.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_display.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_display_type.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_input.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_input_type.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sp_common.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/clock.c D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/clock.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/clock_type.h D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/statemachine.h 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_1.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_1_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_2.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/Button_2_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CLK_LED.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ISR_definition.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_compiler_gcc.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_hal_structs.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_irqstub.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_primitives.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_common_ee_types.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_context.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_cpu.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_irq.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_irq_cng_cont.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_nvic.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_cortex_mx_ee_systick.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_api.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_as_kernel.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_as_timing_prot.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_irq.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_api.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_common.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_inline.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_intfunc.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_irq.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_oo_kernel.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_rtdruid_versions.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_ee_tracing.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_eecfg.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/ErikaOS_event_definition.inc : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_BackLight.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_CS.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_CS_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_DC.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_DC_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_LED.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_LED_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_RES.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_RES_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SCL.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SCL_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SDA.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SDA_aliases.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SPI.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SPI_IntClock.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/TFT_SPI_PVT.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/UART_LOG.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/UART_LOG_IntClock.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/isr_button.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/Generated_Source/PSoC5/project.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/bsw/derivate.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/bsw/global.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/bsw/tft/tft.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/rte.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/rte_types.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_control.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_control_type.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_display.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_display_type.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_input.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sc_input_type.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/rte/sp_common.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/clock.c : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/clock.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/clock_type.h : 
+
+D:/h_da/sem2/eaa/lab2/lab2/my/assignment2/EClock.cydsn/source/asw/statemachine.h : 
+

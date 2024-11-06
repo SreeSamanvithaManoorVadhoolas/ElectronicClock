@@ -1,0 +1,6 @@
+D:\h_da\sem2\eaa\lab2\lab2\my\assignment2\EClock.cydsn\EClock.cyprj|fcea3b50-69c2-45ff-92db-1a950aeac75c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|885c3b12-5e24-4a35-b50b-cc1756d5f5eb
+C:\Users\saman\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|fb111aa4-910b-4823-8d73-d2082d7b87f4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|da67f97e-6178-4130-94ba-d88bf8c0a665
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5a4779d0-b003-4bab-ab33-cbff07b43d25
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|8885bcd1-decf-4e6b-8f66-12ea376c895f
